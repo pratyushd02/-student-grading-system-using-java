@@ -24,6 +24,8 @@ public class login extends javax.swing.JFrame {
     public login() {
         initComponents();
     }
+    
+    viewresult vr = new viewresult();
 
     /**
      * This method is called from within the constructor to initialize the form.
@@ -166,15 +168,36 @@ public class login extends javax.swing.JFrame {
         
         pst.setString(1,jTextField2.getText());
         pst.setString(2,jPasswordField1.getText());
+        
         ResultSet rs = pst.executeQuery();
         if(rs.next()){
-            if(student.isSelected()){
+            if(teacher.isSelected()){
             Mainform m = new Mainform();
             m.setVisible(true);
             setVisible(false);
             }
-            else if(teacher.isSelected()){
-                viewresult vr = new viewresult();
+            else if(student.isSelected()){
+                
+                try{
+                    DefaultTableModel tb = (DefaultTableModel)vr.jTable1.getModel(); 
+                    tb.setRowCount(0);
+                   
+                    ResultSet r = st.executeQuery("select * from student");
+                    while(r.next()){
+                        String name = r.getString("name");
+                        String roll = String.valueOf(r.getLong("rollno"));
+                        String yos = r.getString("yearofstudy");
+                        String ema = r.getString("email");
+                        String tmark = String.valueOf(r.getInt("TotalMarks"));
+                        String per = String.valueOf(r.getFloat("Percentage"));
+                        String grade = r.getString("Grade");
+                        String tdata[] = {name,roll,yos,ema,tmark,per,grade};
+                        tb.addRow(tdata);
+                    }
+       
+         
+        con.close();
+        } catch(Exception e){ System.out.println("ERROR"+ e); } 
                 vr.setVisible(true);
                 setVisible(false);
             }

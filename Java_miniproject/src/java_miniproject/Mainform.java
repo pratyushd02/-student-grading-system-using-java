@@ -52,15 +52,56 @@ public class Mainform extends javax.swing.JFrame {
         jButton3 = new javax.swing.JButton();
         jButton4 = new javax.swing.JButton();
         jButton5 = new javax.swing.JButton();
-        mark1 = new javax.swing.JTextField();
+        ise1 = new javax.swing.JTextField();
         jLabel5 = new javax.swing.JLabel();
-        jLabel6 = new javax.swing.JLabel();
-        mark2 = new javax.swing.JTextField();
-        jLabel7 = new javax.swing.JLabel();
-        mark3 = new javax.swing.JTextField();
+        ia1 = new javax.swing.JTextField();
+        ese1 = new javax.swing.JTextField();
         jLabel8 = new javax.swing.JLabel();
         jLabel9 = new javax.swing.JLabel();
+        jLabel11 = new javax.swing.JLabel();
+        jLabel12 = new javax.swing.JLabel();
+        jLabel13 = new javax.swing.JLabel();
+        jLabel14 = new javax.swing.JLabel();
+        ise2 = new javax.swing.JTextField();
+        jLabel6 = new javax.swing.JLabel();
+        ia2 = new javax.swing.JTextField();
+        ese2 = new javax.swing.JTextField();
         jLabel10 = new javax.swing.JLabel();
+        jLabel15 = new javax.swing.JLabel();
+        jLabel16 = new javax.swing.JLabel();
+        jLabel17 = new javax.swing.JLabel();
+        jLabel18 = new javax.swing.JLabel();
+        jLabel19 = new javax.swing.JLabel();
+        ise3 = new javax.swing.JTextField();
+        jLabel7 = new javax.swing.JLabel();
+        ia3 = new javax.swing.JTextField();
+        ese3 = new javax.swing.JTextField();
+        jLabel20 = new javax.swing.JLabel();
+        jLabel21 = new javax.swing.JLabel();
+        jLabel22 = new javax.swing.JLabel();
+        jLabel23 = new javax.swing.JLabel();
+        jLabel24 = new javax.swing.JLabel();
+        jLabel25 = new javax.swing.JLabel();
+        ise4 = new javax.swing.JTextField();
+        jLabel26 = new javax.swing.JLabel();
+        ia4 = new javax.swing.JTextField();
+        ese4 = new javax.swing.JTextField();
+        jLabel27 = new javax.swing.JLabel();
+        jLabel28 = new javax.swing.JLabel();
+        jLabel29 = new javax.swing.JLabel();
+        jLabel30 = new javax.swing.JLabel();
+        jLabel31 = new javax.swing.JLabel();
+        jLabel32 = new javax.swing.JLabel();
+        ise5 = new javax.swing.JTextField();
+        jLabel33 = new javax.swing.JLabel();
+        ia5 = new javax.swing.JTextField();
+        ese5 = new javax.swing.JTextField();
+        jLabel34 = new javax.swing.JLabel();
+        jLabel35 = new javax.swing.JLabel();
+        jLabel36 = new javax.swing.JLabel();
+        jLabel37 = new javax.swing.JLabel();
+        jLabel38 = new javax.swing.JLabel();
+        jLabel39 = new javax.swing.JLabel();
 
         jTextArea1.setColumns(20);
         jTextArea1.setRows(5);
@@ -68,9 +109,9 @@ public class Mainform extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setBackground(new java.awt.Color(255, 255, 255));
-        setMaximumSize(new java.awt.Dimension(518, 350));
-        setMinimumSize(new java.awt.Dimension(518, 350));
-        setPreferredSize(new java.awt.Dimension(518, 350));
+        setMaximumSize(new java.awt.Dimension(565, 620));
+        setMinimumSize(new java.awt.Dimension(565, 620));
+        setPreferredSize(new java.awt.Dimension(565, 620));
         setResizable(false);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
@@ -146,7 +187,7 @@ public class Mainform extends javax.swing.JFrame {
                 jButton1ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(28, 278, -1, -1));
+        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 570, -1, -1));
 
         jButton2.setBackground(new java.awt.Color(204, 255, 255));
         jButton2.setText("Reset");
@@ -155,7 +196,7 @@ public class Mainform extends javax.swing.JFrame {
                 jButton2ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(419, 278, -1, -1));
+        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 570, -1, -1));
         getContentPane().add(nameo, new org.netbeans.lib.awtextra.AbsoluteConstraints(306, 237, 737, -1));
         getContentPane().add(rollnoo, new org.netbeans.lib.awtextra.AbsoluteConstraints(306, 243, 250, -1));
         getContentPane().add(yoso, new org.netbeans.lib.awtextra.AbsoluteConstraints(793, 278, 250, -1));
@@ -168,7 +209,7 @@ public class Mainform extends javax.swing.JFrame {
                 jButton3ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(113, 278, 82, -1));
+        getContentPane().add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 570, 82, -1));
 
         jButton4.setBackground(new java.awt.Color(255, 153, 153));
         jButton4.setText("Update");
@@ -177,7 +218,7 @@ public class Mainform extends javax.swing.JFrame {
                 jButton4ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(217, 278, 85, -1));
+        getContentPane().add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 570, 85, -1));
 
         jButton5.setBackground(new java.awt.Color(255, 204, 255));
         jButton5.setText("Delete");
@@ -186,40 +227,187 @@ public class Mainform extends javax.swing.JFrame {
                 jButton5ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(324, 278, 77, -1));
+        getContentPane().add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 570, 77, -1));
 
-        mark1.addActionListener(new java.awt.event.ActionListener() {
+        ise1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                mark1ActionPerformed(evt);
+                ise1ActionPerformed(evt);
             }
         });
-        getContentPane().add(mark1, new org.netbeans.lib.awtextra.AbsoluteConstraints(115, 170, 60, -1));
+        getContentPane().add(ise1, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 250, 60, -1));
 
-        jLabel5.setText("Java Marks");
-        getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(36, 173, -1, -1));
+        jLabel5.setText("ESE");
+        getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 250, 30, 20));
+        getContentPane().add(ia1, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 250, 60, -1));
 
-        jLabel6.setText("Python Marks");
-        getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(32, 204, 79, -1));
-        getContentPane().add(mark2, new org.netbeans.lib.awtextra.AbsoluteConstraints(115, 201, 60, -1));
-
-        jLabel7.setText("Cpp Marks");
-        getContentPane().add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(36, 240, 63, -1));
-
-        mark3.addActionListener(new java.awt.event.ActionListener() {
+        ese1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                mark3ActionPerformed(evt);
+                ese1ActionPerformed(evt);
             }
         });
-        getContentPane().add(mark3, new org.netbeans.lib.awtextra.AbsoluteConstraints(115, 237, 60, -1));
+        getContentPane().add(ese1, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 250, 60, -1));
 
-        jLabel8.setText("out of 100");
-        getContentPane().add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(185, 173, 78, -1));
+        jLabel8.setText("out of 50");
+        getContentPane().add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 250, 78, -1));
 
-        jLabel9.setText("out of 100");
-        getContentPane().add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(185, 240, 78, -1));
+        jLabel9.setText("out of 20");
+        getContentPane().add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 250, 78, -1));
 
-        jLabel10.setText("out of 100");
-        getContentPane().add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(185, 204, 78, -1));
+        jLabel11.setText("DAM");
+        getContentPane().add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 220, 30, 20));
+
+        jLabel12.setText("ISE");
+        getContentPane().add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 250, 30, 20));
+
+        jLabel13.setText("out of 30");
+        getContentPane().add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 250, 78, -1));
+
+        jLabel14.setText("IA");
+        getContentPane().add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 250, 30, 20));
+
+        ise2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                ise2ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(ise2, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 310, 60, -1));
+
+        jLabel6.setText("ESE");
+        getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 310, 30, 20));
+        getContentPane().add(ia2, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 310, 60, -1));
+
+        ese2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                ese2ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(ese2, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 310, 60, -1));
+
+        jLabel10.setText("out of 50");
+        getContentPane().add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 310, 78, -1));
+
+        jLabel15.setText("out of 20");
+        getContentPane().add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 310, 78, -1));
+
+        jLabel16.setText("DS");
+        getContentPane().add(jLabel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 280, 30, 20));
+
+        jLabel17.setText("ISE");
+        getContentPane().add(jLabel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 310, 30, 20));
+
+        jLabel18.setText("out of 30");
+        getContentPane().add(jLabel18, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 310, 78, -1));
+
+        jLabel19.setText("IA");
+        getContentPane().add(jLabel19, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 310, 30, 20));
+
+        ise3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                ise3ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(ise3, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 370, 60, -1));
+
+        jLabel7.setText("ESE");
+        getContentPane().add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 370, 30, 20));
+        getContentPane().add(ia3, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 370, 60, -1));
+
+        ese3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                ese3ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(ese3, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 370, 60, -1));
+
+        jLabel20.setText("out of 50");
+        getContentPane().add(jLabel20, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 370, 78, -1));
+
+        jLabel21.setText("out of 20");
+        getContentPane().add(jLabel21, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 370, 78, -1));
+
+        jLabel22.setText("DMS");
+        getContentPane().add(jLabel22, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 340, 30, 20));
+
+        jLabel23.setText("ISE");
+        getContentPane().add(jLabel23, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 370, 30, 20));
+
+        jLabel24.setText("out of 30");
+        getContentPane().add(jLabel24, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 370, 78, -1));
+
+        jLabel25.setText("IA");
+        getContentPane().add(jLabel25, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 370, 30, 20));
+
+        ise4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                ise4ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(ise4, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 430, 60, -1));
+
+        jLabel26.setText("ESE");
+        getContentPane().add(jLabel26, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 430, 30, 20));
+        getContentPane().add(ia4, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 430, 60, -1));
+
+        ese4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                ese4ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(ese4, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 430, 60, -1));
+
+        jLabel27.setText("out of 50");
+        getContentPane().add(jLabel27, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 430, 78, -1));
+
+        jLabel28.setText("out of 20");
+        getContentPane().add(jLabel28, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 430, 78, -1));
+
+        jLabel29.setText("DIS");
+        getContentPane().add(jLabel29, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 400, 30, 20));
+
+        jLabel30.setText("ISE");
+        getContentPane().add(jLabel30, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 430, 30, 20));
+
+        jLabel31.setText("out of 30");
+        getContentPane().add(jLabel31, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 430, 78, -1));
+
+        jLabel32.setText("IA");
+        getContentPane().add(jLabel32, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 430, 30, 20));
+
+        ise5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                ise5ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(ise5, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 500, 60, -1));
+
+        jLabel33.setText("ESE");
+        getContentPane().add(jLabel33, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 500, 30, 20));
+        getContentPane().add(ia5, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 500, 60, -1));
+
+        ese5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                ese5ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(ese5, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 500, 60, -1));
+
+        jLabel34.setText("out of 50");
+        getContentPane().add(jLabel34, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 500, 78, -1));
+
+        jLabel35.setText("out of 20");
+        getContentPane().add(jLabel35, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 500, 78, -1));
+
+        jLabel36.setText("JAVA");
+        getContentPane().add(jLabel36, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 470, 30, 20));
+
+        jLabel37.setText("ISE");
+        getContentPane().add(jLabel37, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 500, 30, 20));
+
+        jLabel38.setText("out of 30");
+        getContentPane().add(jLabel38, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 500, 78, -1));
+
+        jLabel39.setText("IA");
+        getContentPane().add(jLabel39, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 500, 30, 20));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -238,7 +426,7 @@ public class Mainform extends javax.swing.JFrame {
         PreparedStatement pst=null;
         Connection con = null;
         
-        int a = Integer.parseInt(roll.getText());
+        long a = Long.parseLong(roll.getText());
         String namee = name.getText();
         String yos = "";
         if(FY.isSelected()){
@@ -258,15 +446,36 @@ public class Mainform extends javax.swing.JFrame {
              yos = "LY";
             
         }
-        int m1 = Integer.parseInt(mark1.getText());
-        int m2 = Integer.parseInt(mark2.getText());
-        int m3 = Integer.parseInt(mark3.getText());
-        if(m1 > 100 || m2 > 100 || m3 > 100){
+        int is1 = Integer.parseInt(ise1.getText());
+        int i1 = Integer.parseInt(ia1.getText());
+        int es1 = Integer.parseInt(ese1.getText());
+        int m1 = is1+i1+es1;
+        
+        int is2 = Integer.parseInt(ise2.getText());
+        int i2 = Integer.parseInt(ia2.getText());
+        int es2 = Integer.parseInt(ese2.getText());
+        int m2 = is2+i2+es2;
+        
+        int is3 = Integer.parseInt(ise3.getText());
+        int i3 = Integer.parseInt(ia3.getText());
+        int es3 = Integer.parseInt(ese3.getText());
+        int m3 = is3+i3+es3;
+        
+        int is4 = Integer.parseInt(ise4.getText());
+        int i4 = Integer.parseInt(ia4.getText());
+        int es4 = Integer.parseInt(ese4.getText());
+        int m4 = is4+i4+es4;
+        
+        int is5 = Integer.parseInt(ise5.getText());
+        int i5 = Integer.parseInt(ia5.getText());
+        int es5 = Integer.parseInt(ese5.getText());
+        int m5 = is5+i5+es5;
+        if(m1 > 100 || m2 > 100 || m3 > 100 || m4 > 100 || m5 > 100){
             JOptionPane.showMessageDialog(this,"Wrong input for marks");
         }
         else{
-        int t = m1+m2+m3;
-        float p = t/3;
+        int t = m1+m2+m3+m4+m5;
+        float p = t/5;
         char g = 'A';
         if(p>=80){
             g ='A';
@@ -292,7 +501,7 @@ public class Mainform extends javax.swing.JFrame {
             con=DriverManager.getConnection("jdbc:mysql://localhost:3306/new?zeroDateTimeBehavior=CONVERT_TO_NULL","root","");
             pst = con.prepareStatement("insert into student values(?,?,?,?,?,?,?)");
             pst.setString(1,name.getText());
-            pst.setInt(2,a);
+            pst.setLong(2,a);
             pst.setString(3,yos);
             pst.setString(4,ema.getText());
             pst.setInt(5,t);
@@ -334,9 +543,9 @@ public class Mainform extends javax.swing.JFrame {
         SY.setSelected(false);
         TY.setSelected(false);
         LY.setSelected(false);
-        mark1.setText(null);
-        mark3.setText(null);
-        mark2.setText(null);
+        ise1.setText(null);
+        ese1.setText(null);
+        ia1.setText(null);
     }//GEN-LAST:event_jButton2ActionPerformed
 
     private void SYActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_SYActionPerformed
@@ -380,7 +589,7 @@ public class Mainform extends javax.swing.JFrame {
         
         while(rs.next()){
             String name = rs.getString("name");
-            String roll = String.valueOf(rs.getInt("rollno"));
+            String roll = String.valueOf(rs.getLong("rollno"));
             String yos = rs.getString("yearofstudy");
             String ema = rs.getString("email");
             String tmark = String.valueOf(rs.getInt("TotalMarks"));
@@ -390,7 +599,10 @@ public class Mainform extends javax.swing.JFrame {
             String tdata[] = {name,roll,yos,ema,tmark,per,grade};
             
             tb.addRow(tdata);
+            
+            
         }
+        vr.jTable1.setAutoCreateRowSorter(true);
        
          
         con.close();
@@ -407,7 +619,7 @@ public class Mainform extends javax.swing.JFrame {
         Class.forName("com.mysql.cj.jdbc.Driver");
         con=DriverManager.getConnection("jdbc:mysql://localhost:3306/new?zeroDateTimeBehavior=CONVERT_TO_NULL","root","");
         pst = con.prepareStatement("update student set rollno=?, yearofstudy=?, email=? , TotalMarks=? ,Percentage=?,Grade=?  where name=? ");
-        int a = Integer.parseInt(roll.getText());
+        long a = Long.parseLong(roll.getText());
         String yos = "";
         if(FY.isSelected()){
             yos = "FY";
@@ -422,11 +634,36 @@ public class Mainform extends javax.swing.JFrame {
              yos = "LY";
         
         }
-        int m1 = Integer.parseInt(mark1.getText());
-        int m2 = Integer.parseInt(mark2.getText());
-        int m3 = Integer.parseInt(mark3.getText());
-        int t = m1+m2+m3;
-        float p = t/3;
+        int is1 = Integer.parseInt(ise1.getText());
+        int i1 = Integer.parseInt(ia1.getText());
+        int es1 = Integer.parseInt(ese1.getText());
+        int m1 = is1+i1+es1;
+        
+        int is2 = Integer.parseInt(ise2.getText());
+        int i2 = Integer.parseInt(ia2.getText());
+        int es2 = Integer.parseInt(ese2.getText());
+        int m2 = is2+i2+es2;
+        
+        int is3 = Integer.parseInt(ise3.getText());
+        int i3 = Integer.parseInt(ia3.getText());
+        int es3 = Integer.parseInt(ese3.getText());
+        int m3 = is3+i3+es3;
+        
+        int is4 = Integer.parseInt(ise4.getText());
+        int i4 = Integer.parseInt(ia4.getText());
+        int es4 = Integer.parseInt(ese4.getText());
+        int m4 = is4+i4+es4;
+        
+        int is5 = Integer.parseInt(ise5.getText());
+        int i5 = Integer.parseInt(ia5.getText());
+        int es5 = Integer.parseInt(ese5.getText());
+        int m5 = is5+i5+es5;
+        if(m1 > 100 || m2 > 100 || m3 > 100 || m4 > 100 || m5 > 100){
+            JOptionPane.showMessageDialog(this,"Wrong input for marks");
+        }
+        else{
+        int t = m1+m2+m3+m4+m5;
+        float p = t/5;
         char g = 'A';
         if(p>=80){
             g ='A';
@@ -447,7 +684,7 @@ public class Mainform extends javax.swing.JFrame {
             g ='F';
         }
         String gs =String.valueOf(g); 
-        pst.setInt(1,a);
+        pst.setLong(1,a);
         pst.setString(2,yos);
         pst.setString(3,ema.getText());
         pst.setInt(4,t);
@@ -459,7 +696,7 @@ public class Mainform extends javax.swing.JFrame {
         pst.close();
         con.close();
         
-        
+        }
         }  catch(Exception e){ System.out.println("ERROR"+ e); } 
     }//GEN-LAST:event_jButton4ActionPerformed
 
@@ -471,7 +708,7 @@ public class Mainform extends javax.swing.JFrame {
         Class.forName("com.mysql.cj.jdbc.Driver");
         con=DriverManager.getConnection("jdbc:mysql://localhost:3306/new?zeroDateTimeBehavior=CONVERT_TO_NULL","root","");
         pst = con.prepareStatement("delete from student where name=? and rollno=? and yearofstudy=? and email=? ");
-        int a = Integer.parseInt(roll.getText());
+        long a = Long.parseLong(roll.getText());
         String yos = "";
         if(FY.isSelected()){
             yos = "FY";
@@ -487,7 +724,7 @@ public class Mainform extends javax.swing.JFrame {
         
         }
         pst.setString(1,name.getText());
-        pst.setInt(2,a);
+        pst.setLong(2,a);
         pst.setString(3,yos);
         pst.setString(4,ema.getText());
         
@@ -500,13 +737,45 @@ public class Mainform extends javax.swing.JFrame {
         }catch(Exception e){ System.out.println("ERROR"+ e); } 
     }//GEN-LAST:event_jButton5ActionPerformed
 
-    private void mark1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_mark1ActionPerformed
+    private void ise1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ise1ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_mark1ActionPerformed
+    }//GEN-LAST:event_ise1ActionPerformed
 
-    private void mark3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_mark3ActionPerformed
+    private void ese1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ese1ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_mark3ActionPerformed
+    }//GEN-LAST:event_ese1ActionPerformed
+
+    private void ise2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ise2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_ise2ActionPerformed
+
+    private void ese2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ese2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_ese2ActionPerformed
+
+    private void ise3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ise3ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_ise3ActionPerformed
+
+    private void ese3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ese3ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_ese3ActionPerformed
+
+    private void ise4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ise4ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_ise4ActionPerformed
+
+    private void ese4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ese4ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_ese4ActionPerformed
+
+    private void ise5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ise5ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_ise5ActionPerformed
+
+    private void ese5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ese5ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_ese5ActionPerformed
 
   
     /**
@@ -554,6 +823,21 @@ public class Mainform extends javax.swing.JFrame {
     private javax.swing.JRadioButton TY;
     private javax.swing.JTextField ema;
     private javax.swing.JLabel emao;
+    private javax.swing.JTextField ese1;
+    private javax.swing.JTextField ese2;
+    private javax.swing.JTextField ese3;
+    private javax.swing.JTextField ese4;
+    private javax.swing.JTextField ese5;
+    private javax.swing.JTextField ia1;
+    private javax.swing.JTextField ia2;
+    private javax.swing.JTextField ia3;
+    private javax.swing.JTextField ia4;
+    private javax.swing.JTextField ia5;
+    private javax.swing.JTextField ise1;
+    private javax.swing.JTextField ise2;
+    private javax.swing.JTextField ise3;
+    private javax.swing.JTextField ise4;
+    private javax.swing.JTextField ise5;
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton3;
@@ -561,8 +845,37 @@ public class Mainform extends javax.swing.JFrame {
     private javax.swing.JButton jButton5;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
+    private javax.swing.JLabel jLabel11;
+    private javax.swing.JLabel jLabel12;
+    private javax.swing.JLabel jLabel13;
+    private javax.swing.JLabel jLabel14;
+    private javax.swing.JLabel jLabel15;
+    private javax.swing.JLabel jLabel16;
+    private javax.swing.JLabel jLabel17;
+    private javax.swing.JLabel jLabel18;
+    private javax.swing.JLabel jLabel19;
     private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel20;
+    private javax.swing.JLabel jLabel21;
+    private javax.swing.JLabel jLabel22;
+    private javax.swing.JLabel jLabel23;
+    private javax.swing.JLabel jLabel24;
+    private javax.swing.JLabel jLabel25;
+    private javax.swing.JLabel jLabel26;
+    private javax.swing.JLabel jLabel27;
+    private javax.swing.JLabel jLabel28;
+    private javax.swing.JLabel jLabel29;
     private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel30;
+    private javax.swing.JLabel jLabel31;
+    private javax.swing.JLabel jLabel32;
+    private javax.swing.JLabel jLabel33;
+    private javax.swing.JLabel jLabel34;
+    private javax.swing.JLabel jLabel35;
+    private javax.swing.JLabel jLabel36;
+    private javax.swing.JLabel jLabel37;
+    private javax.swing.JLabel jLabel38;
+    private javax.swing.JLabel jLabel39;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
@@ -571,9 +884,6 @@ public class Mainform extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel9;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JTextArea jTextArea1;
-    private javax.swing.JTextField mark1;
-    private javax.swing.JTextField mark2;
-    private javax.swing.JTextField mark3;
     private javax.swing.JTextField name;
     private javax.swing.JLabel nameo;
     private javax.swing.JTextField roll;
