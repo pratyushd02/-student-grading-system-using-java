@@ -50,8 +50,6 @@ public class Mainform extends javax.swing.JFrame {
         yoso = new javax.swing.JLabel();
         emao = new javax.swing.JLabel();
         jButton3 = new javax.swing.JButton();
-        jButton4 = new javax.swing.JButton();
-        jButton5 = new javax.swing.JButton();
         ise1 = new javax.swing.JTextField();
         jLabel5 = new javax.swing.JLabel();
         ia1 = new javax.swing.JTextField();
@@ -109,20 +107,19 @@ public class Mainform extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setBackground(new java.awt.Color(255, 255, 255));
-        setMaximumSize(new java.awt.Dimension(565, 620));
-        setMinimumSize(new java.awt.Dimension(565, 620));
-        setPreferredSize(new java.awt.Dimension(565, 620));
-        setResizable(false);
+        setMaximumSize(new java.awt.Dimension(565, 650));
+        setMinimumSize(new java.awt.Dimension(565, 650));
+        setPreferredSize(new java.awt.Dimension(565, 650));
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel1.setText("Name");
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(34, 11, 56, 31));
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 30, 56, 31));
 
         jLabel2.setText("Roll No.");
-        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(34, 48, 50, 22));
+        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 70, 50, 22));
 
         jLabel3.setText("Year Of Study");
-        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(32, 88, 103, -1));
+        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 110, 103, -1));
 
         FY.setText("FY");
         FY.addActionListener(new java.awt.event.ActionListener() {
@@ -130,7 +127,7 @@ public class Mainform extends javax.swing.JFrame {
                 FYActionPerformed(evt);
             }
         });
-        getContentPane().add(FY, new org.netbeans.lib.awtextra.AbsoluteConstraints(32, 107, -1, -1));
+        getContentPane().add(FY, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 130, -1, -1));
 
         SY.setText("SY");
         SY.addActionListener(new java.awt.event.ActionListener() {
@@ -138,7 +135,7 @@ public class Mainform extends javax.swing.JFrame {
                 SYActionPerformed(evt);
             }
         });
-        getContentPane().add(SY, new org.netbeans.lib.awtextra.AbsoluteConstraints(71, 107, -1, -1));
+        getContentPane().add(SY, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 130, -1, -1));
 
         TY.setText("TY");
         TY.addActionListener(new java.awt.event.ActionListener() {
@@ -146,7 +143,7 @@ public class Mainform extends javax.swing.JFrame {
                 TYActionPerformed(evt);
             }
         });
-        getContentPane().add(TY, new org.netbeans.lib.awtextra.AbsoluteConstraints(112, 107, -1, -1));
+        getContentPane().add(TY, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 130, -1, -1));
 
         LY.setText("LY");
         LY.addActionListener(new java.awt.event.ActionListener() {
@@ -154,31 +151,31 @@ public class Mainform extends javax.swing.JFrame {
                 LYActionPerformed(evt);
             }
         });
-        getContentPane().add(LY, new org.netbeans.lib.awtextra.AbsoluteConstraints(151, 107, -1, -1));
+        getContentPane().add(LY, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 130, -1, -1));
 
         name.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 nameActionPerformed(evt);
             }
         });
-        getContentPane().add(name, new org.netbeans.lib.awtextra.AbsoluteConstraints(94, 16, 400, -1));
+        getContentPane().add(name, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 40, 400, -1));
 
         roll.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 rollActionPerformed(evt);
             }
         });
-        getContentPane().add(roll, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 50, 400, -1));
+        getContentPane().add(roll, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 70, 400, -1));
 
         jLabel4.setText("E-mail ");
-        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(37, 135, -1, -1));
+        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 170, -1, -1));
 
         ema.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 emaActionPerformed(evt);
             }
         });
-        getContentPane().add(ema, new org.netbeans.lib.awtextra.AbsoluteConstraints(112, 132, 187, -1));
+        getContentPane().add(ema, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 170, 187, -1));
 
         jButton1.setBackground(new java.awt.Color(204, 204, 255));
         jButton1.setText("Submit");
@@ -187,7 +184,7 @@ public class Mainform extends javax.swing.JFrame {
                 jButton1ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 570, -1, -1));
+        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 570, -1, -1));
 
         jButton2.setBackground(new java.awt.Color(204, 255, 255));
         jButton2.setText("Reset");
@@ -196,7 +193,7 @@ public class Mainform extends javax.swing.JFrame {
                 jButton2ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 570, -1, -1));
+        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 570, -1, -1));
         getContentPane().add(nameo, new org.netbeans.lib.awtextra.AbsoluteConstraints(306, 237, 737, -1));
         getContentPane().add(rollnoo, new org.netbeans.lib.awtextra.AbsoluteConstraints(306, 243, 250, -1));
         getContentPane().add(yoso, new org.netbeans.lib.awtextra.AbsoluteConstraints(793, 278, 250, -1));
@@ -209,25 +206,7 @@ public class Mainform extends javax.swing.JFrame {
                 jButton3ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 570, 82, -1));
-
-        jButton4.setBackground(new java.awt.Color(255, 153, 153));
-        jButton4.setText("Update");
-        jButton4.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton4ActionPerformed(evt);
-            }
-        });
-        getContentPane().add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 570, 85, -1));
-
-        jButton5.setBackground(new java.awt.Color(255, 204, 255));
-        jButton5.setText("Delete");
-        jButton5.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton5ActionPerformed(evt);
-            }
-        });
-        getContentPane().add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 570, 77, -1));
+        getContentPane().add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 570, 82, -1));
 
         ise1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -546,6 +525,18 @@ public class Mainform extends javax.swing.JFrame {
         ise1.setText(null);
         ese1.setText(null);
         ia1.setText(null);
+        ise2.setText(null);
+        ese2.setText(null);
+        ia2.setText(null);
+        ise3.setText(null);
+        ese3.setText(null);
+        ia3.setText(null);
+        ise4.setText(null);
+        ese4.setText(null);
+        ia4.setText(null);
+        ise5.setText(null);
+        ese5.setText(null);
+        ia5.setText(null);
     }//GEN-LAST:event_jButton2ActionPerformed
 
     private void SYActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_SYActionPerformed
@@ -610,132 +601,6 @@ public class Mainform extends javax.swing.JFrame {
        
        vr.setVisible(true);
     }//GEN-LAST:event_jButton3ActionPerformed
-
-    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
-        // TODO add your handling code here:
-        try{
-        PreparedStatement pst=null;
-        Connection con = null;
-        Class.forName("com.mysql.cj.jdbc.Driver");
-        con=DriverManager.getConnection("jdbc:mysql://localhost:3306/new?zeroDateTimeBehavior=CONVERT_TO_NULL","root","");
-        pst = con.prepareStatement("update student set rollno=?, yearofstudy=?, email=? , TotalMarks=? ,Percentage=?,Grade=?  where name=? ");
-        long a = Long.parseLong(roll.getText());
-        String yos = "";
-        if(FY.isSelected()){
-            yos = "FY";
-        }
-        else if(SY.isSelected()){
-             yos = "SY"; 
-        }
-        else if(TY.isSelected()){
-             yos = "TY";
-        }
-        else if(LY.isSelected()){
-             yos = "LY";
-        
-        }
-        int is1 = Integer.parseInt(ise1.getText());
-        int i1 = Integer.parseInt(ia1.getText());
-        int es1 = Integer.parseInt(ese1.getText());
-        int m1 = is1+i1+es1;
-        
-        int is2 = Integer.parseInt(ise2.getText());
-        int i2 = Integer.parseInt(ia2.getText());
-        int es2 = Integer.parseInt(ese2.getText());
-        int m2 = is2+i2+es2;
-        
-        int is3 = Integer.parseInt(ise3.getText());
-        int i3 = Integer.parseInt(ia3.getText());
-        int es3 = Integer.parseInt(ese3.getText());
-        int m3 = is3+i3+es3;
-        
-        int is4 = Integer.parseInt(ise4.getText());
-        int i4 = Integer.parseInt(ia4.getText());
-        int es4 = Integer.parseInt(ese4.getText());
-        int m4 = is4+i4+es4;
-        
-        int is5 = Integer.parseInt(ise5.getText());
-        int i5 = Integer.parseInt(ia5.getText());
-        int es5 = Integer.parseInt(ese5.getText());
-        int m5 = is5+i5+es5;
-        if(m1 > 100 || m2 > 100 || m3 > 100 || m4 > 100 || m5 > 100){
-            JOptionPane.showMessageDialog(this,"Wrong input for marks");
-        }
-        else{
-        int t = m1+m2+m3+m4+m5;
-        float p = t/5;
-        char g = 'A';
-        if(p>=80){
-            g ='A';
-        }
-        else if(p>=70 && p<80){
-            g ='B';
-        }
-        else if(p>=60 && p<70){
-            g ='C';
-        }
-        else if(p>=50 && p<60){
-           g ='D';
-        }
-        else if(p>=40 && p<50){
-            g ='E';
-        }
-        else if(p<40){
-            g ='F';
-        }
-        String gs =String.valueOf(g); 
-        pst.setLong(1,a);
-        pst.setString(2,yos);
-        pst.setString(3,ema.getText());
-        pst.setInt(4,t);
-        pst.setFloat(5, p);
-        pst.setString(6, gs);
-        pst.setString(7,name.getText());
-        
-        int r = pst.executeUpdate();
-        pst.close();
-        con.close();
-        
-        }
-        }  catch(Exception e){ System.out.println("ERROR"+ e); } 
-    }//GEN-LAST:event_jButton4ActionPerformed
-
-    private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
-        // TODO add your handling code here:
-        try{
-        PreparedStatement pst=null;
-        Connection con = null;
-        Class.forName("com.mysql.cj.jdbc.Driver");
-        con=DriverManager.getConnection("jdbc:mysql://localhost:3306/new?zeroDateTimeBehavior=CONVERT_TO_NULL","root","");
-        pst = con.prepareStatement("delete from student where name=? and rollno=? and yearofstudy=? and email=? ");
-        long a = Long.parseLong(roll.getText());
-        String yos = "";
-        if(FY.isSelected()){
-            yos = "FY";
-        }
-        else if(SY.isSelected()){
-             yos = "SY"; 
-        }
-        else if(TY.isSelected()){
-             yos = "TY";
-        }
-        else if(LY.isSelected()){
-             yos = "LY";
-        
-        }
-        pst.setString(1,name.getText());
-        pst.setLong(2,a);
-        pst.setString(3,yos);
-        pst.setString(4,ema.getText());
-        
-        
-        int r = pst.executeUpdate();
-        pst.close();
-        con.close();
-        
-        
-        }catch(Exception e){ System.out.println("ERROR"+ e); } 
-    }//GEN-LAST:event_jButton5ActionPerformed
 
     private void ise1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ise1ActionPerformed
         // TODO add your handling code here:
@@ -841,8 +706,6 @@ public class Mainform extends javax.swing.JFrame {
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton3;
-    private javax.swing.JButton jButton4;
-    private javax.swing.JButton jButton5;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;

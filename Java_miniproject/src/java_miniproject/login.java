@@ -43,7 +43,7 @@ public class login extends javax.swing.JFrame {
         jLabel2 = new javax.swing.JLabel();
         jPanel3 = new javax.swing.JPanel();
         jPasswordField1 = new javax.swing.JPasswordField();
-        jTextField1 = new javax.swing.JTextField();
+        jTextField2 = new javax.swing.JTextField();
         student = new javax.swing.JRadioButton();
         teacher = new javax.swing.JRadioButton();
         Login = new javax.swing.JButton();
@@ -87,16 +87,16 @@ public class login extends javax.swing.JFrame {
                 jPasswordField1ActionPerformed(evt);
             }
         });
-        jPanel3.add(jPasswordField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 150, 270, 30));
+        jPanel3.add(jPasswordField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 200, 270, 30));
 
-        jTextField1.setFont(new java.awt.Font("Trebuchet MS", 0, 18)); // NOI18N
-        jTextField1.setForeground(new java.awt.Color(0, 204, 204));
-        jTextField1.addActionListener(new java.awt.event.ActionListener() {
+        jTextField2.setFont(new java.awt.Font("Trebuchet MS", 0, 18)); // NOI18N
+        jTextField2.setForeground(new java.awt.Color(0, 204, 204));
+        jTextField2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextField1ActionPerformed(evt);
+                jTextField2ActionPerformed(evt);
             }
         });
-        jPanel3.add(jTextField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 200, 270, 30));
+        jPanel3.add(jTextField2, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 150, 270, 30));
 
         student.setBackground(new java.awt.Color(0, 0, 0));
         student.setFont(new java.awt.Font("Trebuchet MS", 0, 24)); // NOI18N
@@ -107,7 +107,7 @@ public class login extends javax.swing.JFrame {
                 studentActionPerformed(evt);
             }
         });
-        jPanel3.add(student, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 260, 210, 42));
+        jPanel3.add(student, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 260, 210, 42));
 
         teacher.setBackground(new java.awt.Color(0, 0, 0));
         teacher.setFont(new java.awt.Font("Trebuchet MS", 0, 24)); // NOI18N
@@ -147,14 +147,14 @@ public class login extends javax.swing.JFrame {
         jLabel3.setText("LOGIN PAGE");
         jPanel3.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 70, 220, 50));
 
-        getContentPane().add(jPanel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 0, 540, 430));
+        getContentPane().add(jPanel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 0, 550, 430));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jTextField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField1ActionPerformed
+    private void jTextField2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField2ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField1ActionPerformed
+    }//GEN-LAST:event_jTextField2ActionPerformed
 
     private void LoginActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_LoginActionPerformed
         // TODO add your handling code here:
@@ -172,8 +172,8 @@ public class login extends javax.swing.JFrame {
         ResultSet rs = pst.executeQuery();
         if(rs.next()){
             if(teacher.isSelected()){
-            Mainform m = new Mainform();
-            m.setVisible(true);
+            perform p = new perform();
+            p.setVisible(true);
             setVisible(false);
             }
             else if(student.isSelected()){
@@ -204,7 +204,7 @@ public class login extends javax.swing.JFrame {
         }
         else{
             JOptionPane.showMessageDialog(this,"EMAIL PASSWORD NOT MATCHED");
-            jTextField1.setText(null);
+            jTextField2.setText(null);
             jTextField2.setText(null);
             jPasswordField1.setText(null);
         }
@@ -278,7 +278,7 @@ public class login extends javax.swing.JFrame {
     private javax.swing.JPasswordField jPasswordField1;
     private javax.swing.JTabbedPane jTabbedPane1;
     private javax.swing.JTabbedPane jTabbedPane2;
-    private javax.swing.JTextField jTextField1;
+    private javax.swing.JTextField jTextField2;
     private javax.swing.JLabel pemail;
     private javax.swing.JLabel pemail1;
     private javax.swing.JRadioButton student;
