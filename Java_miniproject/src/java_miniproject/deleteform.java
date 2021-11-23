@@ -32,22 +32,25 @@ public class deleteform extends javax.swing.JFrame {
 
         jScrollPane1 = new javax.swing.JScrollPane();
         jTextArea1 = new javax.swing.JTextArea();
-        jLabel2 = new javax.swing.JLabel();
-        roll = new javax.swing.JTextField();
-        jButton2 = new javax.swing.JButton();
         nameo = new javax.swing.JLabel();
         rollnoo = new javax.swing.JLabel();
         yoso = new javax.swing.JLabel();
         emao = new javax.swing.JLabel();
-        jButton3 = new javax.swing.JButton();
+        jPanel1 = new javax.swing.JPanel();
+        jLabel2 = new javax.swing.JLabel();
         jButton5 = new javax.swing.JButton();
-        jLabel40 = new javax.swing.JLabel();
-        jLabel41 = new javax.swing.JLabel();
-        jLabel42 = new javax.swing.JLabel();
-        search = new javax.swing.JButton();
-        name = new javax.swing.JTextField();
-        yos = new javax.swing.JTextField();
+        jButton3 = new javax.swing.JButton();
+        jButton2 = new javax.swing.JButton();
         ema = new javax.swing.JTextField();
+        jLabel42 = new javax.swing.JLabel();
+        jLabel41 = new javax.swing.JLabel();
+        yos = new javax.swing.JTextField();
+        jLabel40 = new javax.swing.JLabel();
+        name = new javax.swing.JTextField();
+        search = new javax.swing.JButton();
+        roll = new javax.swing.JTextField();
+        jPanel2 = new javax.swing.JPanel();
+        jLabel1 = new javax.swing.JLabel();
 
         jTextArea1.setColumns(20);
         jTextArea1.setRows(5);
@@ -58,73 +61,99 @@ public class deleteform extends javax.swing.JFrame {
         setMinimumSize(new java.awt.Dimension(565, 620));
         setResizable(false);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-        jLabel2.setText("Roll No.");
-        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 30, 50, 22));
-
-        roll.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                rollActionPerformed(evt);
-            }
-        });
-        getContentPane().add(roll, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 30, 270, -1));
-
-        jButton2.setBackground(new java.awt.Color(204, 255, 255));
-        jButton2.setText("Reset");
-        jButton2.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton2ActionPerformed(evt);
-            }
-        });
-        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 240, -1, -1));
         getContentPane().add(nameo, new org.netbeans.lib.awtextra.AbsoluteConstraints(306, 237, 737, -1));
         getContentPane().add(rollnoo, new org.netbeans.lib.awtextra.AbsoluteConstraints(306, 243, 250, -1));
         getContentPane().add(yoso, new org.netbeans.lib.awtextra.AbsoluteConstraints(793, 278, 250, -1));
         getContentPane().add(emao, new org.netbeans.lib.awtextra.AbsoluteConstraints(793, 284, 250, -1));
 
-        jButton3.setBackground(new java.awt.Color(204, 255, 204));
-        jButton3.setText("Display");
-        jButton3.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton3ActionPerformed(evt);
-            }
-        });
-        getContentPane().add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 240, 82, -1));
+        jPanel1.setBackground(new java.awt.Color(0, 0, 0));
+        jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jButton5.setBackground(new java.awt.Color(255, 204, 255));
+        jLabel2.setFont(new java.awt.Font("Trebuchet MS", 0, 20)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(0, 255, 255));
+        jLabel2.setText("Roll No:");
+        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 150, 100, 40));
+
+        jButton5.setBackground(new java.awt.Color(0, 204, 204));
         jButton5.setText("Delete");
         jButton5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton5ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 240, 77, -1));
+        jPanel1.add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 320, 100, 30));
 
-        jLabel40.setText("Name");
-        getContentPane().add(jLabel40, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 100, 40, -1));
-
-        jLabel41.setText("Year of Study");
-        getContentPane().add(jLabel41, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 130, -1, -1));
-
-        jLabel42.setText("Email");
-        getContentPane().add(jLabel42, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 160, 40, -1));
-
-        search.setText("Enter");
-        search.addActionListener(new java.awt.event.ActionListener() {
+        jButton3.setBackground(new java.awt.Color(0, 204, 204));
+        jButton3.setText("Display");
+        jButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                searchActionPerformed(evt);
+                jButton3ActionPerformed(evt);
             }
         });
-        getContentPane().add(search, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 30, -1, -1));
+        jPanel1.add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 320, 90, 30));
+
+        jButton2.setBackground(new java.awt.Color(0, 204, 204));
+        jButton2.setText("Reset");
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 320, 90, 30));
+        jPanel1.add(ema, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 270, 240, 30));
+
+        jLabel42.setFont(new java.awt.Font("Trebuchet MS", 0, 20)); // NOI18N
+        jLabel42.setForeground(new java.awt.Color(0, 255, 255));
+        jLabel42.setText("Email:");
+        jPanel1.add(jLabel42, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 260, 100, 30));
+
+        jLabel41.setFont(new java.awt.Font("Trebuchet MS", 0, 20)); // NOI18N
+        jLabel41.setForeground(new java.awt.Color(0, 255, 255));
+        jLabel41.setText("Year of Study:");
+        jPanel1.add(jLabel41, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 220, 130, 50));
+
+        yos.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        jPanel1.add(yos, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 230, 240, 30));
+
+        jLabel40.setFont(new java.awt.Font("Trebuchet MS", 0, 20)); // NOI18N
+        jLabel40.setForeground(new java.awt.Color(0, 255, 255));
+        jLabel40.setText("Name:");
+        jPanel1.add(jLabel40, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 190, 80, 40));
 
         name.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 nameActionPerformed(evt);
             }
         });
-        getContentPane().add(name, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 100, 200, -1));
-        getContentPane().add(yos, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 130, 200, -1));
-        getContentPane().add(ema, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 160, 200, -1));
+        jPanel1.add(name, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 190, 240, 30));
+
+        search.setBackground(new java.awt.Color(0, 153, 153));
+        search.setFont(new java.awt.Font("Trebuchet MS", 0, 18)); // NOI18N
+        search.setText("Enter");
+        search.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                searchActionPerformed(evt);
+            }
+        });
+        jPanel1.add(search, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 150, 90, 30));
+
+        roll.setFont(new java.awt.Font("Times New Roman", 0, 24)); // NOI18N
+        roll.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                rollActionPerformed(evt);
+            }
+        });
+        jPanel1.add(roll, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 150, 240, 30));
+
+        jPanel2.setBackground(new java.awt.Color(0, 255, 255));
+
+        jLabel1.setFont(new java.awt.Font("Arial", 0, 36)); // NOI18N
+        jLabel1.setText("Delete Student Info:");
+        jPanel2.add(jLabel1);
+
+        jPanel1.add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 30, 580, 50));
+
+        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 770, 400));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -286,10 +315,13 @@ public class deleteform extends javax.swing.JFrame {
     private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton3;
     private javax.swing.JButton jButton5;
+    private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel40;
     private javax.swing.JLabel jLabel41;
     private javax.swing.JLabel jLabel42;
+    private javax.swing.JPanel jPanel1;
+    private javax.swing.JPanel jPanel2;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JTextArea jTextArea1;
     private javax.swing.JTextField name;

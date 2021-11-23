@@ -61,45 +61,36 @@ public class Mainform extends javax.swing.JFrame {
         jLabel13 = new javax.swing.JLabel();
         jLabel14 = new javax.swing.JLabel();
         ise2 = new javax.swing.JTextField();
-        jLabel6 = new javax.swing.JLabel();
         ia2 = new javax.swing.JTextField();
         ese2 = new javax.swing.JTextField();
         jLabel10 = new javax.swing.JLabel();
         jLabel15 = new javax.swing.JLabel();
         jLabel16 = new javax.swing.JLabel();
-        jLabel17 = new javax.swing.JLabel();
         jLabel18 = new javax.swing.JLabel();
-        jLabel19 = new javax.swing.JLabel();
         ise3 = new javax.swing.JTextField();
-        jLabel7 = new javax.swing.JLabel();
         ia3 = new javax.swing.JTextField();
         ese3 = new javax.swing.JTextField();
         jLabel20 = new javax.swing.JLabel();
         jLabel21 = new javax.swing.JLabel();
         jLabel22 = new javax.swing.JLabel();
-        jLabel23 = new javax.swing.JLabel();
         jLabel24 = new javax.swing.JLabel();
-        jLabel25 = new javax.swing.JLabel();
         ise4 = new javax.swing.JTextField();
-        jLabel26 = new javax.swing.JLabel();
         ia4 = new javax.swing.JTextField();
         ese4 = new javax.swing.JTextField();
         jLabel27 = new javax.swing.JLabel();
         jLabel28 = new javax.swing.JLabel();
         jLabel29 = new javax.swing.JLabel();
-        jLabel30 = new javax.swing.JLabel();
         jLabel31 = new javax.swing.JLabel();
-        jLabel32 = new javax.swing.JLabel();
         ise5 = new javax.swing.JTextField();
-        jLabel33 = new javax.swing.JLabel();
         ia5 = new javax.swing.JTextField();
         ese5 = new javax.swing.JTextField();
         jLabel34 = new javax.swing.JLabel();
         jLabel35 = new javax.swing.JLabel();
         jLabel36 = new javax.swing.JLabel();
-        jLabel37 = new javax.swing.JLabel();
         jLabel38 = new javax.swing.JLabel();
-        jLabel39 = new javax.swing.JLabel();
+        jPanel2 = new javax.swing.JPanel();
+        jPanel1 = new javax.swing.JPanel();
+        jLabel6 = new javax.swing.JLabel();
 
         jTextArea1.setColumns(20);
         jTextArea1.setRows(5);
@@ -112,281 +103,348 @@ public class Mainform extends javax.swing.JFrame {
         setPreferredSize(new java.awt.Dimension(565, 650));
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel1.setText("Name");
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 30, 56, 31));
+        jLabel1.setFont(new java.awt.Font("Trebuchet MS", 0, 20)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(0, 204, 204));
+        jLabel1.setText("Name:");
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 100, 90, 31));
 
-        jLabel2.setText("Roll No.");
-        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 70, 50, 22));
+        jLabel2.setFont(new java.awt.Font("Trebuchet MS", 0, 20)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(0, 204, 204));
+        jLabel2.setText("Roll No:");
+        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 150, 80, 22));
 
-        jLabel3.setText("Year Of Study");
-        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 110, 103, -1));
+        jLabel3.setFont(new java.awt.Font("Trebuchet MS", 0, 20)); // NOI18N
+        jLabel3.setForeground(new java.awt.Color(0, 204, 204));
+        jLabel3.setText("Year Of Study:");
+        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 230, 140, -1));
 
+        FY.setBackground(new java.awt.Color(0, 0, 0));
+        FY.setFont(new java.awt.Font("Trebuchet MS", 0, 20)); // NOI18N
+        FY.setForeground(new java.awt.Color(0, 204, 204));
         FY.setText("FY");
         FY.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 FYActionPerformed(evt);
             }
         });
-        getContentPane().add(FY, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 130, -1, -1));
+        getContentPane().add(FY, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 230, -1, -1));
 
+        SY.setBackground(new java.awt.Color(0, 0, 0));
+        SY.setFont(new java.awt.Font("Trebuchet MS", 0, 20)); // NOI18N
+        SY.setForeground(new java.awt.Color(0, 204, 204));
         SY.setText("SY");
         SY.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 SYActionPerformed(evt);
             }
         });
-        getContentPane().add(SY, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 130, -1, -1));
+        getContentPane().add(SY, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 230, -1, -1));
 
+        TY.setBackground(new java.awt.Color(0, 0, 0));
+        TY.setFont(new java.awt.Font("Trebuchet MS", 0, 20)); // NOI18N
+        TY.setForeground(new java.awt.Color(0, 204, 204));
         TY.setText("TY");
         TY.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 TYActionPerformed(evt);
             }
         });
-        getContentPane().add(TY, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 130, -1, -1));
+        getContentPane().add(TY, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 230, -1, -1));
 
+        LY.setBackground(new java.awt.Color(0, 0, 0));
+        LY.setFont(new java.awt.Font("Trebuchet MS", 0, 20)); // NOI18N
+        LY.setForeground(new java.awt.Color(0, 204, 204));
         LY.setText("LY");
         LY.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 LYActionPerformed(evt);
             }
         });
-        getContentPane().add(LY, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 130, -1, -1));
+        getContentPane().add(LY, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 230, -1, -1));
 
+        name.setForeground(new java.awt.Color(0, 204, 204));
         name.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 nameActionPerformed(evt);
             }
         });
-        getContentPane().add(name, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 40, 400, -1));
+        getContentPane().add(name, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 100, 190, 30));
 
+        roll.setForeground(new java.awt.Color(0, 204, 204));
         roll.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 rollActionPerformed(evt);
             }
         });
-        getContentPane().add(roll, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 70, 400, -1));
+        getContentPane().add(roll, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 150, 190, 30));
 
-        jLabel4.setText("E-mail ");
-        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 170, -1, -1));
+        jLabel4.setFont(new java.awt.Font("Trebuchet MS", 0, 20)); // NOI18N
+        jLabel4.setForeground(new java.awt.Color(0, 204, 204));
+        jLabel4.setText("E-mail: ");
+        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 190, 100, -1));
 
+        ema.setForeground(new java.awt.Color(0, 204, 204));
         ema.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 emaActionPerformed(evt);
             }
         });
-        getContentPane().add(ema, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 170, 187, -1));
+        getContentPane().add(ema, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 190, 190, 30));
 
-        jButton1.setBackground(new java.awt.Color(204, 204, 255));
+        jButton1.setBackground(new java.awt.Color(0, 204, 204));
+        jButton1.setFont(new java.awt.Font("Trebuchet MS", 0, 20)); // NOI18N
         jButton1.setText("Submit");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 570, -1, -1));
+        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 620, 110, -1));
 
-        jButton2.setBackground(new java.awt.Color(204, 255, 255));
+        jButton2.setBackground(new java.awt.Color(0, 204, 204));
+        jButton2.setFont(new java.awt.Font("Trebuchet MS", 0, 20)); // NOI18N
         jButton2.setText("Reset");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton2ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 570, -1, -1));
+        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 620, 110, -1));
         getContentPane().add(nameo, new org.netbeans.lib.awtextra.AbsoluteConstraints(306, 237, 737, -1));
         getContentPane().add(rollnoo, new org.netbeans.lib.awtextra.AbsoluteConstraints(306, 243, 250, -1));
         getContentPane().add(yoso, new org.netbeans.lib.awtextra.AbsoluteConstraints(793, 278, 250, -1));
         getContentPane().add(emao, new org.netbeans.lib.awtextra.AbsoluteConstraints(793, 284, 250, -1));
 
-        jButton3.setBackground(new java.awt.Color(204, 255, 204));
+        jButton3.setBackground(new java.awt.Color(0, 204, 204));
+        jButton3.setFont(new java.awt.Font("Trebuchet MS", 0, 20)); // NOI18N
         jButton3.setText("Display");
         jButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton3ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 570, 82, -1));
+        getContentPane().add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 620, -1, -1));
 
+        ise1.setFont(new java.awt.Font("Trebuchet MS", 0, 20)); // NOI18N
+        ise1.setForeground(new java.awt.Color(0, 204, 204));
         ise1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 ise1ActionPerformed(evt);
             }
         });
-        getContentPane().add(ise1, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 250, 60, -1));
+        getContentPane().add(ise1, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 340, 80, 30));
 
-        jLabel5.setText("ESE");
-        getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 250, 30, 20));
-        getContentPane().add(ia1, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 250, 60, -1));
+        jLabel5.setFont(new java.awt.Font("Trebuchet MS", 0, 24)); // NOI18N
+        jLabel5.setForeground(new java.awt.Color(0, 204, 204));
+        jLabel5.setText("ESE MARKS");
+        getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 310, 120, 20));
 
+        ia1.setFont(new java.awt.Font("Trebuchet MS", 0, 20)); // NOI18N
+        ia1.setForeground(new java.awt.Color(0, 204, 204));
+        getContentPane().add(ia1, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 340, 80, 30));
+
+        ese1.setForeground(new java.awt.Color(0, 204, 204));
         ese1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 ese1ActionPerformed(evt);
             }
         });
-        getContentPane().add(ese1, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 250, 60, -1));
+        getContentPane().add(ese1, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 340, 80, 30));
 
+        jLabel8.setFont(new java.awt.Font("Trebuchet MS", 0, 20)); // NOI18N
+        jLabel8.setForeground(new java.awt.Color(0, 204, 204));
         jLabel8.setText("out of 50");
-        getContentPane().add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 250, 78, -1));
+        getContentPane().add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(680, 340, 90, -1));
 
+        jLabel9.setFont(new java.awt.Font("Trebuchet MS", 0, 20)); // NOI18N
+        jLabel9.setForeground(new java.awt.Color(0, 204, 204));
         jLabel9.setText("out of 20");
-        getContentPane().add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 250, 78, -1));
+        getContentPane().add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 340, 90, -1));
 
+        jLabel11.setFont(new java.awt.Font("Trebuchet MS", 0, 20)); // NOI18N
+        jLabel11.setForeground(new java.awt.Color(0, 204, 204));
         jLabel11.setText("DAM");
-        getContentPane().add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 220, 30, 20));
+        getContentPane().add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 350, 50, 20));
 
-        jLabel12.setText("ISE");
-        getContentPane().add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 250, 30, 20));
+        jLabel12.setFont(new java.awt.Font("Trebuchet MS", 0, 24)); // NOI18N
+        jLabel12.setForeground(new java.awt.Color(0, 204, 204));
+        jLabel12.setText("ISE MARKS");
+        getContentPane().add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 310, 140, 20));
 
+        jLabel13.setFont(new java.awt.Font("Trebuchet MS", 0, 20)); // NOI18N
+        jLabel13.setForeground(new java.awt.Color(0, 204, 204));
         jLabel13.setText("out of 30");
-        getContentPane().add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 250, 78, -1));
+        getContentPane().add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 340, 90, -1));
 
-        jLabel14.setText("IA");
-        getContentPane().add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 250, 30, 20));
+        jLabel14.setFont(new java.awt.Font("Trebuchet MS", 0, 24)); // NOI18N
+        jLabel14.setForeground(new java.awt.Color(0, 204, 204));
+        jLabel14.setText("IA MARKS");
+        getContentPane().add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 310, 110, 20));
 
+        ise2.setFont(new java.awt.Font("Trebuchet MS", 0, 20)); // NOI18N
+        ise2.setForeground(new java.awt.Color(0, 204, 204));
         ise2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 ise2ActionPerformed(evt);
             }
         });
-        getContentPane().add(ise2, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 310, 60, -1));
+        getContentPane().add(ise2, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 400, 80, 30));
 
-        jLabel6.setText("ESE");
-        getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 310, 30, 20));
-        getContentPane().add(ia2, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 310, 60, -1));
+        ia2.setFont(new java.awt.Font("Trebuchet MS", 0, 20)); // NOI18N
+        ia2.setForeground(new java.awt.Color(0, 204, 204));
+        getContentPane().add(ia2, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 400, 80, 30));
 
+        ese2.setForeground(new java.awt.Color(0, 204, 204));
         ese2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 ese2ActionPerformed(evt);
             }
         });
-        getContentPane().add(ese2, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 310, 60, -1));
+        getContentPane().add(ese2, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 390, 80, 30));
 
+        jLabel10.setFont(new java.awt.Font("Trebuchet MS", 0, 20)); // NOI18N
+        jLabel10.setForeground(new java.awt.Color(0, 204, 204));
         jLabel10.setText("out of 50");
-        getContentPane().add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 310, 78, -1));
+        getContentPane().add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(680, 390, 90, -1));
 
+        jLabel15.setFont(new java.awt.Font("Trebuchet MS", 0, 20)); // NOI18N
+        jLabel15.setForeground(new java.awt.Color(0, 204, 204));
         jLabel15.setText("out of 20");
-        getContentPane().add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 310, 78, -1));
+        getContentPane().add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 400, 90, -1));
 
+        jLabel16.setFont(new java.awt.Font("Trebuchet MS", 0, 20)); // NOI18N
+        jLabel16.setForeground(new java.awt.Color(0, 204, 204));
         jLabel16.setText("DS");
-        getContentPane().add(jLabel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 280, 30, 20));
+        getContentPane().add(jLabel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 410, 50, 20));
 
-        jLabel17.setText("ISE");
-        getContentPane().add(jLabel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 310, 30, 20));
-
+        jLabel18.setFont(new java.awt.Font("Trebuchet MS", 0, 20)); // NOI18N
+        jLabel18.setForeground(new java.awt.Color(0, 204, 204));
         jLabel18.setText("out of 30");
-        getContentPane().add(jLabel18, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 310, 78, -1));
+        getContentPane().add(jLabel18, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 400, 90, -1));
 
-        jLabel19.setText("IA");
-        getContentPane().add(jLabel19, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 310, 30, 20));
-
+        ise3.setFont(new java.awt.Font("Trebuchet MS", 0, 20)); // NOI18N
+        ise3.setForeground(new java.awt.Color(0, 204, 204));
         ise3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 ise3ActionPerformed(evt);
             }
         });
-        getContentPane().add(ise3, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 370, 60, -1));
+        getContentPane().add(ise3, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 460, 80, 30));
 
-        jLabel7.setText("ESE");
-        getContentPane().add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 370, 30, 20));
-        getContentPane().add(ia3, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 370, 60, -1));
+        ia3.setFont(new java.awt.Font("Trebuchet MS", 0, 20)); // NOI18N
+        ia3.setForeground(new java.awt.Color(0, 204, 204));
+        getContentPane().add(ia3, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 450, 80, 30));
 
+        ese3.setForeground(new java.awt.Color(0, 204, 204));
         ese3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 ese3ActionPerformed(evt);
             }
         });
-        getContentPane().add(ese3, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 370, 60, -1));
+        getContentPane().add(ese3, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 440, 80, 30));
 
+        jLabel20.setFont(new java.awt.Font("Trebuchet MS", 0, 20)); // NOI18N
         jLabel20.setText("out of 50");
-        getContentPane().add(jLabel20, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 370, 78, -1));
+        getContentPane().add(jLabel20, new org.netbeans.lib.awtextra.AbsoluteConstraints(680, 440, 90, -1));
 
+        jLabel21.setFont(new java.awt.Font("Trebuchet MS", 0, 20)); // NOI18N
         jLabel21.setText("out of 20");
-        getContentPane().add(jLabel21, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 370, 78, -1));
+        getContentPane().add(jLabel21, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 450, 90, -1));
 
+        jLabel22.setFont(new java.awt.Font("Trebuchet MS", 0, 20)); // NOI18N
         jLabel22.setText("DMS");
-        getContentPane().add(jLabel22, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 340, 30, 20));
+        getContentPane().add(jLabel22, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 470, 50, 20));
 
-        jLabel23.setText("ISE");
-        getContentPane().add(jLabel23, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 370, 30, 20));
-
+        jLabel24.setFont(new java.awt.Font("Trebuchet MS", 0, 20)); // NOI18N
         jLabel24.setText("out of 30");
-        getContentPane().add(jLabel24, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 370, 78, -1));
+        getContentPane().add(jLabel24, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 460, 90, -1));
 
-        jLabel25.setText("IA");
-        getContentPane().add(jLabel25, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 370, 30, 20));
-
+        ise4.setFont(new java.awt.Font("Trebuchet MS", 0, 20)); // NOI18N
+        ise4.setForeground(new java.awt.Color(0, 204, 204));
         ise4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 ise4ActionPerformed(evt);
             }
         });
-        getContentPane().add(ise4, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 430, 60, -1));
+        getContentPane().add(ise4, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 510, 80, 30));
 
-        jLabel26.setText("ESE");
-        getContentPane().add(jLabel26, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 430, 30, 20));
-        getContentPane().add(ia4, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 430, 60, -1));
+        ia4.setFont(new java.awt.Font("Trebuchet MS", 0, 20)); // NOI18N
+        ia4.setForeground(new java.awt.Color(0, 204, 204));
+        getContentPane().add(ia4, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 500, 80, 30));
 
+        ese4.setForeground(new java.awt.Color(0, 204, 204));
         ese4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 ese4ActionPerformed(evt);
             }
         });
-        getContentPane().add(ese4, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 430, 60, -1));
+        getContentPane().add(ese4, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 500, 80, 30));
 
+        jLabel27.setFont(new java.awt.Font("Trebuchet MS", 0, 20)); // NOI18N
         jLabel27.setText("out of 50");
-        getContentPane().add(jLabel27, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 430, 78, -1));
+        getContentPane().add(jLabel27, new org.netbeans.lib.awtextra.AbsoluteConstraints(680, 500, 90, -1));
 
+        jLabel28.setFont(new java.awt.Font("Trebuchet MS", 0, 20)); // NOI18N
         jLabel28.setText("out of 20");
-        getContentPane().add(jLabel28, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 430, 78, -1));
+        getContentPane().add(jLabel28, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 510, 90, -1));
 
+        jLabel29.setFont(new java.awt.Font("Trebuchet MS", 0, 20)); // NOI18N
         jLabel29.setText("DIS");
-        getContentPane().add(jLabel29, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 400, 30, 20));
+        getContentPane().add(jLabel29, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 520, 50, 20));
 
-        jLabel30.setText("ISE");
-        getContentPane().add(jLabel30, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 430, 30, 20));
-
+        jLabel31.setFont(new java.awt.Font("Trebuchet MS", 0, 20)); // NOI18N
         jLabel31.setText("out of 30");
-        getContentPane().add(jLabel31, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 430, 78, -1));
+        getContentPane().add(jLabel31, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 510, 90, -1));
 
-        jLabel32.setText("IA");
-        getContentPane().add(jLabel32, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 430, 30, 20));
-
+        ise5.setFont(new java.awt.Font("Trebuchet MS", 0, 20)); // NOI18N
+        ise5.setForeground(new java.awt.Color(0, 204, 204));
         ise5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 ise5ActionPerformed(evt);
             }
         });
-        getContentPane().add(ise5, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 500, 60, -1));
+        getContentPane().add(ise5, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 570, 80, 30));
 
-        jLabel33.setText("ESE");
-        getContentPane().add(jLabel33, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 500, 30, 20));
-        getContentPane().add(ia5, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 500, 60, -1));
+        ia5.setFont(new java.awt.Font("Trebuchet MS", 0, 20)); // NOI18N
+        ia5.setForeground(new java.awt.Color(0, 204, 204));
+        getContentPane().add(ia5, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 560, 80, 30));
 
+        ese5.setForeground(new java.awt.Color(0, 204, 204));
         ese5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 ese5ActionPerformed(evt);
             }
         });
-        getContentPane().add(ese5, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 500, 60, -1));
+        getContentPane().add(ese5, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 560, 80, 30));
 
+        jLabel34.setFont(new java.awt.Font("Trebuchet MS", 0, 20)); // NOI18N
         jLabel34.setText("out of 50");
-        getContentPane().add(jLabel34, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 500, 78, -1));
+        getContentPane().add(jLabel34, new org.netbeans.lib.awtextra.AbsoluteConstraints(680, 560, 90, -1));
 
+        jLabel35.setFont(new java.awt.Font("Trebuchet MS", 0, 20)); // NOI18N
         jLabel35.setText("out of 20");
-        getContentPane().add(jLabel35, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 500, 78, -1));
+        getContentPane().add(jLabel35, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 570, 90, 20));
 
+        jLabel36.setFont(new java.awt.Font("Trebuchet MS", 0, 20)); // NOI18N
         jLabel36.setText("JAVA");
-        getContentPane().add(jLabel36, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 470, 30, 20));
+        getContentPane().add(jLabel36, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 580, 50, 20));
 
-        jLabel37.setText("ISE");
-        getContentPane().add(jLabel37, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 500, 30, 20));
-
+        jLabel38.setFont(new java.awt.Font("Trebuchet MS", 0, 20)); // NOI18N
         jLabel38.setText("out of 30");
-        getContentPane().add(jLabel38, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 500, 78, -1));
+        getContentPane().add(jLabel38, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 570, 90, -1));
 
-        jLabel39.setText("IA");
-        getContentPane().add(jLabel39, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 500, 30, 20));
+        jPanel2.setBackground(new java.awt.Color(0, 0, 0));
+        jPanel2.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jPanel1.setBackground(new java.awt.Color(0, 204, 204));
+
+        jLabel6.setFont(new java.awt.Font("Berlin Sans FB", 0, 36)); // NOI18N
+        jLabel6.setText("Student Details");
+        jPanel1.add(jLabel6);
+
+        jPanel2.add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 20, 600, 60));
+
+        getContentPane().add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 790, 670));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -714,37 +772,28 @@ public class Mainform extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel14;
     private javax.swing.JLabel jLabel15;
     private javax.swing.JLabel jLabel16;
-    private javax.swing.JLabel jLabel17;
     private javax.swing.JLabel jLabel18;
-    private javax.swing.JLabel jLabel19;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel20;
     private javax.swing.JLabel jLabel21;
     private javax.swing.JLabel jLabel22;
-    private javax.swing.JLabel jLabel23;
     private javax.swing.JLabel jLabel24;
-    private javax.swing.JLabel jLabel25;
-    private javax.swing.JLabel jLabel26;
     private javax.swing.JLabel jLabel27;
     private javax.swing.JLabel jLabel28;
     private javax.swing.JLabel jLabel29;
     private javax.swing.JLabel jLabel3;
-    private javax.swing.JLabel jLabel30;
     private javax.swing.JLabel jLabel31;
-    private javax.swing.JLabel jLabel32;
-    private javax.swing.JLabel jLabel33;
     private javax.swing.JLabel jLabel34;
     private javax.swing.JLabel jLabel35;
     private javax.swing.JLabel jLabel36;
-    private javax.swing.JLabel jLabel37;
     private javax.swing.JLabel jLabel38;
-    private javax.swing.JLabel jLabel39;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
-    private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;
+    private javax.swing.JPanel jPanel1;
+    private javax.swing.JPanel jPanel2;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JTextArea jTextArea1;
     private javax.swing.JTextField name;
